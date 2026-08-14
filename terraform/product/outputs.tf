@@ -11,6 +11,7 @@ output "ingress_configurator_app_name" {
   value       = module.ingress_configurator.app_name
 }
 
+
 output "gateway_api_integrator_requires" {
   description = "List of required relation endpoints for gateway-api-integrator."
   value       = module.gateway_api_integrator.requires
